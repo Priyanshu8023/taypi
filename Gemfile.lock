@@ -95,8 +95,15 @@ GEM
     drb (2.2.3)
     erb (6.0.4)
     erubi (1.13.1)
+    fiber-storage (1.0.1)
     globalid (1.4.0)
       activesupport (>= 6.1)
+    graphiql-rails (1.10.5)
+      railties
+    graphql (2.6.3)
+      base64
+      fiber-storage
+      logger
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.2.3)
@@ -307,6 +314,8 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  graphiql-rails
+  graphql (~> 2.6)
   importmap-rails
   jbuilder
   pg (~> 1.1)
